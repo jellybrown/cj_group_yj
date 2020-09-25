@@ -1,0 +1,238 @@
+/* header_top */
+.header_menu {
+    position: relative;
+    z-index: 999;
+}
+
+.header_menu.sub_page_header .logo a {
+    background-image: url(../images/cj_logo_black.png);
+}
+
+nav ul.sub_page li a,
+.sub_page_header .lang a {
+
+    color: #1a1a1a;
+}
+
+.main_nav li a:hover {
+    color: #b5b5b5;
+}
+
+.main_nav li.active a {
+    color: #007abe;
+    border-bottom: 1px solid #007abe;
+}
+
+.sub_page_header .header_top {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.live_list .contents ul li:nth-child(2n-1) {
+    margin-bottom: 15px;
+}
+
+.live_list .contents ul li:nth-child(4n-1),
+.live_list .contents ul li:nth-child(4n) {
+    margin-right: 7px;
+}
+
+/* search_form */
+body {
+    position: relative;
+}
+
+.search_form {
+    padding: 30px;
+    background: #f2f2f2;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.search_form.active {
+    top: 140px;
+
+}
+
+.search_form form input {
+    border: none;
+    width: 514px;
+    height: 50px;
+}
+
+.search_form form button {
+    border: none;
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    background: #444444;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    box-sizing: content-box;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+/* subpage text */
+.sub_title_text {
+    text-align: center;
+}
+
+.sub_title_text img {
+    height: 56px;
+}
+
+.sub_title_text p {
+    font-size: 32px;
+    margin: 45px 0 55px;
+}
+
+.bottom_black_box li a p.top_title {
+
+    font-size: 36px;
+    line-height: 52px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.sub_page .small_desc {
+    font-size: 16px;
+    color: #666666;
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
+
+/* subpage sub_menu */
+.sub_page_header {
+    background: #fff;
+}
+
+.header_menu .sub_menu {
+    padding: 20px 0;
+    background: #fefefe;
+    transition: 0.5s;
+    opacity: 0.8;
+    position: relative;
+    z-index: 3;
+}
+
+.header_menu .sub_menu.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header_menu .sub_menu .container {
+    justify-content: center;
+}
+
+.header_menu .sub_menu ul {
+    display: flex;
+}
+
+.header_menu .sub_menu ul li {
+    margin: 0 22px;
+}
+
+.header_menu .sub_menu ul li a {
+    color: #000000;
+    font-size: 14px;
+}
+
+.sub_menu .container {
+    position: relative;
+}
+
+.sub_menu .icon {
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+
+.sub_menu .icon a {
+    color: #828282;
+}
+
+.sub_menu .icon .close {
+    position: absolute;
+    left: -10px;
+    right: 0;
+    display: none;
+
+}
+
+
+/* subpage layout */
+
+section.sub_page {
+    background: url(../images/livenewcj/livenew_bg.png) no-repeat;
+    height: 3000px;
+    background-color: #f7f7f7;
+    padding: 125px 0 170px;
+}
+
+section.sub_page {
+    height: auto;
+}
+
+section.sub_page .container {
+    height: auto;
+}
+
+.story {
+    padding-top: 88px;
+
+
+}
+
+.story h3 {
+    font-size: 25px;
+    margin-bottom: 36px;
+}
+
+.story .news_card {
+    flex-wrap: wrap;
+}
+
+.story .news_card li {
+    margin-bottom: 20px;
+}
+
+.story .news_card li a {
+    height: 304px;
+}
+
+.story .news_card li a .tags span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sub_thumb,
+.sub_news {
+    position: static;
+}
+
+/* media_page의 news_card tag부분 여백 조정 */
+
+section.media_page .thumb_title {
+    margin-bottom: 7px;
+}
+
+section.media_page .news_card li a .tags span {
+    margin-bottom: 2px;
+}
+
+
+
+/* sub_menu 없는경우 */
+.sub_menu.nothing .container {
+    height: 17px;
+}

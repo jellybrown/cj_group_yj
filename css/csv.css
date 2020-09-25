@@ -1,0 +1,47 @@
+/* common csv style */
+
+.csv_contents {
+    margin-bottom: 125px;
+}
+
+.csv_contents .more_content p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 23px;
+    letter-spacing: -0.3px;
+}
+
+.csv_contents .content_box h3 {
+    margin-bottom: 32px;
+    letter-spacing: -1.2px;
+}
+
+.csv_contents .content_box h3 span {
+    font-size: 24px;
+}
+
+.read_more {
+    font-size: 14px;
+    color: #666666;
+}
+
+
+/* different layout */
+
+section.csv_page div.row {
+    display: flex;
+    align-items: flex-end;
+}
+
+section.csv_page div.column {
+    width: 80%;
+    margin-left: 240px;
+}
+
+section.csv_page div.row .content_box {
+    padding-left: 38px;
+}
+
+section.csv_page div.column .content_box {
+    padding-top: 30px;
+}

@@ -1,0 +1,122 @@
+.videos li {
+    position: relative;
+}
+
+.videos li a .play_icon {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.videos li .share {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.videos li .share_btn,
+.videos li .share a {
+    display: inline-block;
+    text-indent: -9999em;
+    background: url(../images/media/btn_icon.png) no-repeat;
+}
+
+.videos li .share {
+    display: none;
+}
+
+
+.videos li .share_btn:hover {
+    display: none;
+}
+
+
+.videos li .share_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position: -48px -140px;
+    width: 48px;
+    height: 48px;
+}
+
+.videos li .share a.facebook {
+    background-position: -146px -152px;
+    width: 12px;
+    height: 24px;
+
+}
+
+.videos li .share a.google {
+    background-position: -237px -154px;
+    width: 23px;
+    height: 23px;
+}
+
+.videos li .share a.url {
+    background-position: -282px -158px;
+    width: 23px;
+    height: 13px;
+}
+
+.bottom_black_box.media li {
+    position: static;
+    box-shadow: none;
+}
+
+.bottom_black_box.media li:not(:first-child) {
+    width: 302px;
+    margin-top: 20px;
+}
+
+.bottom_black_box.media li a img {
+    width: 100%;
+}
+
+.bottom_black_box.media li a p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bottom_black_box.media li:not(:first-child) a p {
+    font-size: 13px;
+}
+
+.more_btn {
+    border: 1px solid #757575;
+    background: none;
+    padding: 23px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+    color: #757575;
+
+
+}
+
+.more_btn .more_icon {
+    background: url(../images/btn_icon.png)no-repeat;
+    background-position: -321px 0;
+    width: 31px;
+    height: 31px;
+    display: block;
+    margin-left: 35px;
+    margin-bottom: 10px;
+
+}
+
+.btn_area {
+    text-align: center;
+}

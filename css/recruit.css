@@ -1,0 +1,89 @@
+section.sub_page.recruit_page {
+    background: none;
+    background-color: #f7f7f7;
+}
+
+.recruit_page>.bg_img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.recruit_page>.bg_img img {
+    margin-left: -64px;
+}
+
+.recruit_boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recruit_boxes .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    width: 310px;
+    height: 184px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 24px 30px;
+    box-sizing: border-box;
+
+}
+
+.recruit_boxes .box .company {
+    font-size: 16px;
+}
+
+.recruit_boxes .box .tit {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.recruit_boxes .box .company span:first-child {
+    font-weight: 400;
+    color: #000;
+}
+
+/* button */
+.recruit_page>.container .content h3 {
+    font-size: 26px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 15px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.recruit_page>.container .content h3 em {
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+.filters {
+    margin: 40px 0 10px;
+    display: inline-block;
+}
+
+.filters button {
+    width: 93px;
+    height: 95px;
+    background: #fff;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.filters button span {
+    font-size: 13px;
+}
+
+.filters button p {
+
+    font-size: 28px;
+    color: #007dc3;
+    margin-top: 5px;
+}

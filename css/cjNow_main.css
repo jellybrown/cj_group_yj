@@ -1,0 +1,41 @@
+/* cj_now */
+
+.story {
+    height: auto;
+}
+
+section.cj_now {
+    background-image: none;
+
+}
+
+
+
+.cj_now .bottom_black_box {
+    height: auto;
+}
+
+.bottom_black_box li {
+
+    margin-right: 15px;
+    position: static;
+    box-shadow: none;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.bottom_black_box li img {
+    width: 100%;
+}
+
+.bottom_black_box li:nth-child(2) {
+    width: 640px;
+}
+
+.bottom_black_box li:nth-child(3),
+.bottom_black_box li:nth-child(4) {
+    width: 290px;
+    margin-bottom: 26px;
+
+
+}

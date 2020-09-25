@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif+KR:wght@400;500&display=swap');
+
+
+
+$mainColor: #000;
+
+/* -------- TYPHOGRAPHY --------- */
+/*
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Serif KR', serif;
+*/
+body {
+    font-family: 'Noto Sans KR',
+        sans-serif;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 56px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------- LAYOUT --------- */
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.lang li:not(:first-child) {
+    display: none;
+}
+
+/* -------- COMMON --------- */
+
+
+/* -------- HEADER --------- */
+header {
+    color: $mainColor;
+    position: fixed;
+    margin: 0 auto;
+
+    .container {
+        display: flex;
+
+
+        .logo {
+            padding-top: 27px;
+            margin-right: 52px;
+
+
+            a {
+                background: url(../images/cj_logo.png) no-repeat;
+                background-size: 100% 100%;
+                width: 52px;
+                height: 42px;
+                display: block;
+                text-indent: -9999em;
+
+            }
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                padding: 37px 0 27px;
+
+                li {
+                    padding: 0 17px;
+
+                    a {
+                        color: $mainColor;
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+}
+
+/* -------- MAIN_VIDEO --------- */
+.main_video {
+    video {
+        width: 100%;
+    }
+}
+
+/* -------- LIVE_CJ --------- */
+
+/* -------- CJ_NOW --------- */
+
+/* -------- BEST_BRAND --------- */
+
+/* -------- CSV --------- */
+
+/* -------- FOOTER --------- */
