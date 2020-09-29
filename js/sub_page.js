@@ -48,7 +48,7 @@ $(function () {
 
     })
 
-    //login page
+    //login page 입력안하면 에러, 에러있으면 전송불가
     const loginBox = $('.login_box form')
     loginBox.find('button').click(function () {
         loginBox.find('input').each(function () {

@@ -5,6 +5,8 @@ $(function () {
     const closeBtn = $('.close');
     const searchForm = $('.search_form');
 
+
+    // 검색버튼 클릭시 밑에 나오기
     searchBtn.click(function (e) {
         e.preventDefault();
         searchForm.addClass('active');
@@ -19,6 +21,7 @@ $(function () {
         closeBtn.hide();
     })
 
+    //검색폼 활성화중, 아무곳이나 누르면 검색폼 비활성화
     $('section').click(function () {
         if (searchForm.hasClass('active')) {
             searchForm.removeClass('active');
@@ -157,7 +160,7 @@ $(function () {
         tabContent.eq(idx).show();
     })
 
-    // intro page biz image change
+    // intro page (biz) 마우스 오버시 이미지 변경
     const bizTitle = $('.biz_title li')
     const bizBg = $('.biz_bg > div');
     const bizUl = $('.biz_ul_bg > div');
@@ -171,7 +174,7 @@ $(function () {
     })
 
 
-    //intro page sports
+    //intro page (sports) 클릭시 이미지 변경
     const sportsList = $('.img_lists li');
     const sportsBg = $('.sports_bg div')
     sportsList.click(function () {

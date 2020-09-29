@@ -424,7 +424,6 @@ nav ul li a {
   line-height: 27px;
   font-size: 19px;
   color: #fff;
-  -webkit-line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
   margin-bottom: 15px;

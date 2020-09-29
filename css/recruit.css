@@ -74,14 +74,14 @@ section.sub_page.recruit_page {
     border: none;
     box-sizing: border-box;
     cursor: pointer;
-
 }
 
-.filters button span {
+.filters button span:nth-child(1) {
     font-size: 13px;
+    display: block;
 }
 
-.filters button p {
+.filters button span:nth-child(2) {
 
     font-size: 28px;
     color: #007dc3;

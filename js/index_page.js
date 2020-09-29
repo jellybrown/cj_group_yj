@@ -6,6 +6,9 @@ $(function () {
     const logoImg = header.find('.logo img')
     const whiteSrc = './images/cj_logo.png';
     const blackSrc = './images/cj_logo_black.png';
+
+
+    //스크롤시 메뉴바 스타일 변경
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
             header.addClass('narrow');
@@ -13,8 +16,6 @@ $(function () {
             logoWrapper.stop().animate({
                 paddingTop: '10px'
             }, 200)
-
-
         } else {
             header.removeClass('narrow');
             changeLogo(whiteSrc);
@@ -25,7 +26,7 @@ $(function () {
         }
     })
 
-    //lang 마우스 오버시
+    //lang 마우스 오버시 색상변경
     $('.lang').hover(function () {
         $(this).find('a').stop().animate({
             color: '#666666'
