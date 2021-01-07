@@ -29,7 +29,7 @@
 ### part 1
 
 <br>
-<img src="https://github.com/jellybrown/cj_group_yj/blob/master/cj-clone-p1.gif" width="750">
+<img src="https://github.com/jellybrown/cj_group_yj/blob/master/cj-clone-part1.gif" width="750">
 
 <br>
 <br>
@@ -38,4 +38,9 @@
 
 <br>
 
-<img src="https://github.com/jellybrown/cj_group_yj/blob/master/cj-clone-p2.gif" width="750">
+<img src="https://github.com/jellybrown/cj_group_yj/blob/master/cj-clone-part2.gif" width="750">
+
+<br>
+<br>
+
+<a href="https://jellybrown.github.io/cj_group_yj/">구경하러 가기</a>
